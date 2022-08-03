@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --bg: #fff;
+    --theme-main:red;
+    --theme-blue: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+section {
+    margin: 70px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 24px;
+    background-color: var(--theme-main);
+    text-align: center;
+    transition: box-shadow .4s ease;
+}
+.btn:hover {
+    box-shadow: 0 0 10px #00000077;
+}
+.section-title {
+    width: 100%;
+    padding: 10px 0;
+}
+.section-title h2 {
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 3px solid var(--theme-main);
+}
+.menu__item a {
+    font-size: 16;
+    transition: all .3s ease
+}
+.menu__item:hover a {
+    color: #000;
+}
+.description {
+    font-size: 16px;
+    color: #6C6C6C;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+/* ---------------------------*\
+            HEADER
+\*----------------------------*/
+.header {
+    width: 100%;
+    padding: 42px 0;
+    background-color: var(--theme-blue);
+}
+
+/* ------------navbar-------------- */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+}
+.menu-container {
+    position: relative;
+    width: 50%;
+}
+.menu-container label {
+    width: 100%;
+    display: none;
+    font-size: 30px;
+    color: var(--bg);
+    text-align: right;
+}
+.menu-container label .fa-times {
+    color: #000;
+    text-align: right;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: all .3s ease;
+}
+.menu__item a {
+    color: #fff;
+}
+/* -------------------------------- */
+
+
+.header__main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0;
+}
+.header__texts {
+    width: 500px;
+    max-width: 50%;
+}
+.header__title {
+    font-size: 64px;
+    color: #fff;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+.header__bg {
+    width: 550px;
+    max-width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
